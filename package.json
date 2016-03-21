@@ -1,0 +1,28 @@
+{
+  "name": "muse-node-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic project to start working with the Muse BCI headset and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renaudfv/muse-node-boilerplate.git"
+  },
+  "keywords": [
+    "Node.js",
+    "BCI",
+    "Muse"
+  ],
+  "author": "Renaud Vincent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renaudfv/muse-node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/renaudfv/muse-node-boilerplate#readme",
+  "dependencies": {
+    "node-osc": "^1.2.0"
+  }
+}
